@@ -7,7 +7,13 @@ A brief description of your project goes here. Explain what the project does and
 
 ### 1. Activate the Virtual Environment
 To ensure dependencies are installed in an isolated environment, activate the virtual environment.
+  
+First generate the `.venv` folder if it doesn't exist
+```
+python -m venv .venv
+```
 
+Then activate the Virtual Environment
 - **On Windows**:
   ```
   .venv\Scripts\activate
